@@ -14,10 +14,10 @@
         <form>
             <div class="form-row">
                 <div class="form-group col-md-10">
-                    <input type="text" class="form-control" id="inputCity" placeholder="City Name">
+                    <input type="text" class="form-control cityName" id="inputCity" placeholder="City Name">
                 </div>
-                <div class="searchBtn col-md-2">
-                    <button type="button" class="btn btn-light">Search</button>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-light randomizeBtn">Randomize</button>
                 </div>
             </div>
         </form>
@@ -26,21 +26,22 @@
     <div class="resultContainer">
         <div class="card" style="width: 18rem;">
             <img src="https://tinyurl.com/yxbqbov9" class="card-img-top" alt="stock photo of restaurant">
-            <div class="card-body">
-              <h5 class="card-title">Restaurant Name</h5>
-              <p class="card-text">Description or take this out</p>
+            <div class="card-body ">
+                <h5 class="card-title restaurantName">Restaurant Name</h5>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cuisine: </li>
-              <li class="list-group-item">Price: </li>
-              <li class="list-group-item">Address: </li>
+              <li class="list-group-item cuisine"></li>
+              <li class="list-group-item price"></li>
+              <li class="list-group-item address"></li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Call</a>
-              <a href="#" class="card-link">Website</a>
+              <a href="#" class="card-link callBtn">Call</a>
+              <a href="#" class="card-link webBtn">Website</a>
             </div>
           </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
