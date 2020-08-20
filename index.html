@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldwide Restaurants API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <h1 id="header">Random Restaurant!</h1>
+    <div class="searchContainer col-md-4">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-10">
+                    <input type="text" class="form-control" id="inputCity" placeholder="City Name">
+                </div>
+                <div class="searchBtn col-md-2">
+                    <button type="button" class="btn btn-light">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="resultContainer">
+        <div class="card" style="width: 18rem;">
+            <img src="https://tinyurl.com/yxbqbov9" class="card-img-top" alt="stock photo of restaurant">
+            <div class="card-body">
+              <h5 class="card-title">Restaurant Name</h5>
+              <p class="card-text">Description or take this out</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cuisine: </li>
+              <li class="list-group-item">Price: </li>
+              <li class="list-group-item">Address: </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Call</a>
+              <a href="#" class="card-link">Website</a>
+            </div>
+          </div>
+    </div>
+
+</body>
+</html>
