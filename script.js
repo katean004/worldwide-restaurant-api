@@ -2,7 +2,7 @@
 var resultContainer = $(".resultContainer");
 var cityName = $(".cityName");
 var randomBtn = $(".randomizeBtn");
-var name = $(".restaurantName");
+var nameRes = $(".restaurantName");
 var description = $(".description");
 var cuisine = $(".cuisine");
 var price = $(".price");
@@ -105,6 +105,7 @@ $(document).ready(function(){
 
             // Append restaurant info onto html
             // name.text("Restaurant Name: " + resName);
+            nameRes.text(resName);
             cuisine.text("Cuisine: " + resCuisine);
             price.text("Price: " + resPrice);
             address.text("Adress: " + resAddress);
